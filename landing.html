@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>Product Landing Page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Product Landing Page">
+    <!-- Robot Font used from https://fonts.google.com/specimen/Roboto?selection.family=Roboto:wght@400;700&sidebar.open=true -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Library CDN used from https://cdnjs.com/libraries/font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="script.js"></script>
+
+    <!--
+        Product Landing Page: written by Kenneth Clendenin 
+        Submitted on: 
+    -->
+
+</head>
+
+<body>
+    <div id="body_container">
+
+        <header id="header">
+            <!-- Logo Image created at https://www.namecheap.com/logo-maker/ -->
+            <a href="#top" id="header_img_a"><img src="https://images2.imgbox.com/6c/db/OULQjqXM_o.png" alt="Logo"
+                    id="header-img"></a>
+            <nav id="nav-bar">
+                <ul>
+                    <li><a href="#service" class="nav-link">Service</a></li>
+                    <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Image used from https://pixabay.com/photos/car-wash-motion-brushes-clean-1619823/ -->
+        <div><img src="https://images2.imgbox.com/ef/94/1azx6MjN_o.jpg" alt="Carwash Brushes" id="carwash"></div>
+        <!-- Video used from https://coverr.co/search?q=carwash -->
+        <div><video id="video" autoplay loop muted
+                src="https://res.cloudinary.com/kennyc33/video/upload/v1601849166/carwash_zpoulf.mp4">
+                
+                Your browser does not support the video tag.</video></div>
+
+        <section id="service" class="sections">
+            <h2>Service</h2>
+            <div id="service_outer_grid">
+                <div class="service_grid">
+                    <!-- Icons used from https://fontawesome.com/ -->
+                    <div class="font">
+                        <i class="fas fa-hand-sparkles"></i>
+                    </div>
+                    <div class="content">
+                        <p>Guaranteed Clean</p>
+                    </div>
+
+                    <div class="font">
+                        <i class="fas fa-soap"></i>
+                    </div>
+                    <div class="content">
+                        <p>Highest Quality Detergents</p>
+                    </div>
+
+                    <div class="font">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <div class="content">
+                        <p>Eco friendly Water Reuse</p>
+                    </div>
+                    <div class="font">
+                        <i class="fas fa-smoking-ban"></i>
+                    </div>
+                    <div class="content">
+                        <p>100% Non-Smoking Facility</p>
+                    </div>
+                </div>
+                <div class="service_grid">
+                    <div class="font">
+                        <i class="fas fa-wifi"></i>
+                    </div>
+                    <div class="content">
+                        <p>Free Wi-Fi</p>
+                    </div>
+
+                    <div class="font">
+                        <i class="fas fa-coffee"></i>
+                    </div>
+                    <div class="content">
+                        <p>Indoor Coffee Lounge</p>
+                    </div>
+
+                    <div class="font">
+                        <i class="fas fa-paw"></i>
+                    </div>
+                    <div class="content">
+                        <p>Pet Friendly</p>
+                    </div>
+                    <div class="font">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <div class="content">
+                        <p>Major Credit Cards Accepted</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="sections">
+            <h3>Pricing</h3>
+            <div id="card_grid">
+
+                <div class="card">
+                    <div class="card_top">
+                        <p>Basic</p>
+                    </div>
+                    <div class="card_middle">
+                        <p>$3</p>
+                    </div>
+                    <div class="card_bottom">
+                        <ul>
+                            <li>Lite Exterior Wash</li>
+                            <li>Spot-Free Rinse</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_top">
+                        <p>Standard</p>
+                    </div>
+                    <div class="card_middle">
+                        <p>$5</p>
+                    </div>
+                    <div class="card_bottom">
+                        <ul>
+                            <li>Bug Removal Pre-Soak</li>
+                            <li>Premium Exterior Wash</li>
+                            <li>Wheel/Tire Scrub</li>
+                            <li>Spot-Free Rinse</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_top">
+                        <p>Super</p>
+                    </div>
+                    <div class="card_middle">
+                        <p>$10</p>
+                    </div>
+                    <div class="card_bottom">
+                        <ul>
+                            <li>Bug Removal Pre-Soak</li>
+                            <li>Premium Exterior Wash</li>
+                            <li>Wheel/Tire Scrub</li>
+                            <li>Spot-Free Rinse</li>
+                            <li>Double Foam Polish</li>
+                            <li>Tire Shine</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_top">
+                        <p>Ultra</p>
+                    </div>
+                    <div class="card_middle">
+                        <p>$15</p>
+                    </div>
+                    <div class="card_bottom">
+                        <ul>
+                            <li>Bug Removal Pre-Soak</li>
+                            <li>Premium Exterior Wash</li>
+                            <li>Wheel/Tire Scrub</li>
+                            <li>Spot-Free Rinse</li>
+                            <li>Double Foam Polish</li>
+                            <li>Tire Shine</li>
+                            <li>Interior Vacuum</li>
+                            <li>Interior Glass Cleaning</li>
+                            <li>Interior Air Freshener</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="sections">
+            <h4>Contact</h4>
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
+                <label for="name">First Name:</label>
+                <input id="name" type="text" name="name" placeholder="Please enter your first name" required>
+
+                <label for="email">Email:</label>
+                <input id="email" type="email" name="email" placeholder="Please enter your email address" required>
+
+                <label for="select">How did you hear about us?</label>
+                <select id="select" name="select">
+                    <option disabled selected>Select an option</option>
+                    <option value="1">Internet Search</option>
+                    <option value="2">Facebook/Youtube ads</option>
+                    <option value="3">Email</option>
+                    <option value="4">TV</option>
+                    <option value="5">Radio</option>
+                    <option value="6">Word of Mouth</option>
+                    <option value="7">Other</option>
+                </select>
+
+                <label for="comments">Please leave any questions or comments below:</label>
+                <textarea id="comments" name="comments"></textarea>
+
+                <input type="submit" id="submit" value="Submit" class="button">
+                <input type="reset" class="button">
+            </form>
+        </section>
+
+        <footer>
+            <h5>Kenny's Carwash © 2020</h5>
+        </footer>
+    </div>
+    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+</body>
+
+</html>

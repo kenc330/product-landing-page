@@ -1,0 +1,334 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+}
+
+/* Header Section*/
+
+header {
+    background-color: #156eac;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    max-width: 1300px;
+    min-height: 6rem;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+#header_img_a {
+    display: grid;
+}
+
+#header-img {
+    align-self: center;
+    height: auto;
+    max-width: 90%;
+    padding: 5% 0px 5% 10%;
+}
+
+#nav-bar {
+    align-self: center;
+}
+
+#nav-bar ul {
+    padding-left: 30%;
+    text-align: center;
+}
+
+#nav-bar li {
+    display: inline;
+    padding-right: 10%;
+}
+
+#nav-bar a {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+#nav-bar a:hover, #nav-bar a:focus {
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#carwash {
+    display: block;
+    visibility: hidden;
+    width: 100%;
+}
+
+#video {
+    display: block;
+    max-height: 14rem;
+    object-fit: fill;
+    width: 100%;
+}
+
+/* Service Section*/
+
+#service {
+    padding: 2rem 0px 4rem 0px;
+}
+
+#service h2 {
+    display: grid;
+    font-size: 2.25rem;
+    justify-content: center;
+    margin-top: 0px;
+    padding: 0px 2rem;
+}
+
+.service_grid {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    width: 80%;
+}
+
+#service_outer_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    padding: 0px 5%;
+}
+
+.font {
+    align-content: center;
+    color: darkred;
+    display: grid;
+    font-size: 2rem;
+    justify-content: center;
+    left: 0%;
+    position: relative;
+}
+
+.content p {
+    font-size: 1.25rem;
+}
+
+/* Pricing Section*/
+
+#pricing {
+    padding: 2rem 0px 4rem 0px;
+}
+
+#pricing h3 {
+    display: flex;
+    font-size: 2.25rem;
+    justify-content: center;
+    margin-top: 0px;
+    padding: 0px 2rem;
+}
+
+#card_grid {
+    display: grid;
+    grid-row-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 15rem));
+    justify-content: space-evenly;
+    margin: 0px 2%;
+}
+
+.card {
+    background-color: whitesmoke;
+    border: solid black 1px;
+    border-radius: 25px;
+    display: grid;
+    height: fit-content;
+}
+
+.card_top {
+    background-color: darkred;
+    border-radius: 25px 25px 0px 0px;
+    color: white;
+    text-align: center;
+}
+
+.card_top p {
+    font-size: 2rem;
+}
+
+.card_middle p {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.card_bottom ul {
+    line-height: 1.75rem;
+    margin: 0px;
+    padding: 0px 5% 2rem 15%;
+}
+
+/* Contact Section*/
+
+#contact {
+    padding: 2rem 5% 4rem 5%;
+}
+
+#contact h4 {
+    display: flex;
+    font-size: 2.25rem;
+    justify-content: center;
+    margin-top: 0px;
+    padding: 0px 2rem;
+}
+
+#form {
+    background-color: #156eac;
+    box-shadow: inset 0px 0px 5px black;
+    box-sizing: border-box;
+    margin: auto;
+    max-width: 800px;
+    padding: 2rem 5% .75rem 5%;
+}
+
+input, select {
+    box-sizing: border-box;
+    color: black;
+    font-size: medium;
+    height: 2.5em;
+    margin: .25rem 0px 1rem 0px;
+    padding-left: 2%;
+    width: 100%;
+}
+
+label {
+    color: white;
+    font-size: larger;
+}
+
+::placeholder, select {
+    background-color: white;
+    color: black;
+    font-size: medium;
+}
+
+textarea {
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: large;
+    height: 10rem;
+    margin-top: .25rem;
+    resize: vertical;
+    width: 100%;
+}
+
+.button {
+    background-color: lightgray;
+    border: none;
+    box-shadow: 0px 0px 2px black;
+    font-size: medium;
+    height: 2.25rem;
+    margin-top: 1.5rem;
+    padding: .25rem .75rem;
+    width: 6rem;
+}
+
+#submit {
+    margin-right: .5rem;
+}
+
+.button:hover, .button:focus {
+    background-color: black;
+    border: none;
+    color: whitesmoke;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+/* Footer Section*/
+
+footer {
+    background-color: #156eac;
+    display: grid;
+    justify-content: right;
+    padding: 1rem 2rem;
+}
+
+footer h5 {
+    color: white;
+    margin: 0px;
+}
+
+/* Media Queries*/
+
+@media screen and (min-width: 700px) {
+    .service_grid {
+        padding-left: 3rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .service_grid {
+        padding-left: 10rem;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    #body_container {
+        background-color: white;
+        margin: auto;
+        max-width: 1300px;
+    }
+    body {
+        background-color: #156eac;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #nav-bar ul {
+        padding-left: 20%;
+    }
+    #nav-bar a {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #nav-bar ul {
+        padding-left: 10%;
+    }
+    #nav-bar li {
+        padding-right: 7%;
+    }
+    #nav-bar a {
+        font-size: 1.1rem;
+    }
+    #service_outer_grid {
+        grid-template-columns: 1fr;
+    }
+    .service_grid {
+        padding-left: 20%;
+    }
+    .font {
+        left: 5%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header {
+        grid-template-columns: none;
+    }
+    #header-img {
+        margin: auto;
+        max-width: 80%;
+        padding: 4% 0px 2% 0px;
+    }
+    .service_grid {
+        padding-left: 10%;
+    }
+    .font {
+        left: -10%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .font {
+        left: -30%;
+    }
+}
